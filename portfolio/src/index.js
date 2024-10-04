@@ -1,4 +1,10 @@
-//For managing the rendering of the React application into the DOM
+// Kiana Kooshesh
+// Last Updated: FRI,OCT 4,2O24
+/* I forgot to add name and date to this file since it was alredy in ur
+template,however I noticed it in the instructions and added date and name today(oct 4)*/
+
+
+//Responsible for managing the rendering of the React application into the DOM:
 import ReactDOM from "react-dom/client"; 
 
 /* Responsible for providing routing functionality for the app, 
