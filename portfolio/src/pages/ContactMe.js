@@ -21,6 +21,7 @@ const ContactMe = () => {
     const handleSubmit = (e) => {
         // For preventing the default browser action (reloading the page on form submit)
         e.preventDefault(); 
+
         //Responsible for redirecting to the homepage ("/") after submiton of the form:
         navigate("/");
     };
