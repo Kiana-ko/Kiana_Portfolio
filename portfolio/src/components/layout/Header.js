@@ -1,10 +1,10 @@
 // Kiana Kooshesh
-// Code Last Updated: THU,OCT 3,2O24
+// Code Last Updated: THU,OCT 5,2O24
 /* I forgot to add name and date to this file since it was alredy in ur
 template,however I noticed it in the instructions and added date and name (oct 4)*/
 
 import { Outlet, NavLink, Link } from "react-router-dom";
-import logo from "../../assets/logo.webp"
+import logo from "../../assets/logo.png"
 
 const Header = () => {
   return (
