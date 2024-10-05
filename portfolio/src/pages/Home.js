@@ -13,7 +13,7 @@ of the portfolio: */
 const Home = () => {
     return (
         <section className="home">
-            <h1>Welcome to My Portfolio</h1>
+            <h1> 🚀  Hello, Welcome to My Portfolio </h1>
             <div className="home-center">
                 <div className="home-left">
                     <h2>My Mission</h2>

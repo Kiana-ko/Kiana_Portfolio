@@ -1,5 +1,5 @@
 // Kiana Kooshesh
-// Code Last Updated On: FRI, OCT 4,2O24
+// Code Last Updated On: SAT, OCT 5,2O24
 /* I forgot to add name and date to this file since it was already in ur
 template,however I noticed it in the instructions and added date and name today(oct 4)*/
 
@@ -14,8 +14,8 @@ const AboutMe = () => {
             <h1>About Me</h1>
             <img alt="profile-pic" src={profilePic} />
             <p>
-                Hello, I'm Kiana Kooshesh; a Junior Backend Developer who is currently studying in the Software Engineering Technician program.
-                I am planning on pursuing a career in Data Science while enjoying Game-Dev as a side hobby.
+                I'm Kiana Kooshesh; a Junior Backend Developer 👩🏻‍💻 who is currently studying in the Software Engineering program.
+                I am planning on pursuing a career in Data Science 📊 while enjoying Game-Dev 👾 as a side hobby.
             </p> {/* a short bio of me */}
 
 

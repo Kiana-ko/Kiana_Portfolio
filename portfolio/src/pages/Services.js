@@ -10,16 +10,16 @@ import BackEnd from "../assets/back-end.png";
 function Services() {
     return (
         <div className="my-services">
-            <h1>My services</h1>
+            <h1>🛠 My services 📦</h1>
             <div className="services">
                 <Card 
                     picture={Data} 
-                    title={"Data Science"} 
+                    title={"📊 Data Science"} 
                     description={"I can help you with data analysis, data visualization, and machine learning."} 
                 />
                 <Card 
                     picture={BackEnd} 
-                    title={"Back-end Development"} 
+                    title={"💻 Back-end Development"} 
                     description={"I can help you with creating a server, database, and API."} 
                 />
             </div>

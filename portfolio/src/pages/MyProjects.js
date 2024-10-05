@@ -18,7 +18,7 @@ in a styled format for the portfolio projects section */
 const Projects = () => {
     return (
         <div className="my-projects">
-            <h1>My Projects</h1>
+            <h1>💻 My Projects</h1>
             <div className="projects">
                 <Card  
                     picture={movieApp} 

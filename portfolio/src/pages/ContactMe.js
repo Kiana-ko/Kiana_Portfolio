@@ -1,13 +1,15 @@
 // Kiana Kooshesh
-// Code file Last Updated On: THU,OCT 5,2O24
+// Code file Last Updated On: SAT,OCT 5,2O24
 
 // For importing neccasry React hooks and external resources
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faSquareXTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
-
+import { faKaggle } from "@fortawesome/free-brands-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 // Defining the ContactMe component, which renders a contact form and links for social media:
 const ContactMe = () => {
@@ -30,7 +32,7 @@ const ContactMe = () => {
 
     return (
         <div className="contact-me">
-            <h1>📫 Contact Me</h1>
+            <h1>📫 Conect with Me</h1>
             <div className="connect">
                 <a href="https://www.linkedin.com/in/kiana-kooshesh/" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} size="2x" />
@@ -42,12 +44,24 @@ const ContactMe = () => {
                     <i className="fa-solid fa-envelope email" aria-hidden="true"></i>
                 </a>
 
+                <a href="https://twitter.com/kianaa_Ko" target="_blank" rel="noreferrer"> {/* Square-X Twitter Icon */}
+                    <FontAwesomeIcon icon={faSquareXTwitter} size="2x" />
+                </a>
+
                 <a href="https://www.instagram.com/withkianaa/" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faInstagram} size="2x" />
                 </a>
 
-                
+                <a href="https://www.kaggle.com/kianako" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faKaggle} size="2x" />
+                </a>  
+
+                <a href="https://leetcode.com/u/AwesomeKiana/" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faCode} size="2x" /> {/* LeetCode Icon */}
+                </a>
             </div>
+
+
             <div className="form">
                 <form onSubmit={handleSubmit}>
                     <div>

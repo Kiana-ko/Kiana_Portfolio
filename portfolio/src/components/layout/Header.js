@@ -12,7 +12,7 @@ const Header = () => {
       <nav className="navbar navbar-expand-sm">
         <div className="container-fluid">
           <NavLink className="navbar-brand" to="/">
-            <img src={logo} alt="logo" style={{ width: 40 }} />
+            <img src={logo} alt="logo" style={{  width: 80, height: 80 }} />
           </NavLink>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
             <span className="navbar-toggler-icon"></span>
