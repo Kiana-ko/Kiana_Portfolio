@@ -1,11 +1,13 @@
 // Kiana Kooshesh
-// Code file Last Updated On: THU,OCT 4,2O24
+// Code file Last Updated On: THU,OCT 5,2O24
 
 // For importing neccasry React hooks and external resources
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faInstagram } from '@fortawesome/free-brands-svg-icons';
+
 
 // Defining the ContactMe component, which renders a contact form and links for social media:
 const ContactMe = () => {
@@ -28,7 +30,7 @@ const ContactMe = () => {
 
     return (
         <div className="contact-me">
-            <h1>Contact Me</h1>
+            <h1>📫 Contact Me</h1>
             <div className="connect">
                 <a href="https://www.linkedin.com/in/kiana-kooshesh/" target="_blank" rel="noreferrer">
                     <FontAwesomeIcon icon={faLinkedin} size="2x" />
@@ -39,6 +41,12 @@ const ContactMe = () => {
                 <a href="mailto:kianakooshesh16@gamil.com">
                     <i className="fa-solid fa-envelope email" aria-hidden="true"></i>
                 </a>
+
+                <a href="https://www.instagram.com/withkianaa/" target="_blank" rel="noreferrer">
+                    <FontAwesomeIcon icon={faInstagram} size="2x" />
+                </a>
+
+                
             </div>
             <div className="form">
                 <form onSubmit={handleSubmit}>
