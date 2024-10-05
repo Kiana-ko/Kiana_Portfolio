@@ -241,6 +241,7 @@ footer {
   overflow: hidden;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   max-width: 420px;
+  min-height: 400px;
   height: 100%;
   /* Responsible for ensuring that the card takes full height. */
   margin: 20px;
@@ -320,6 +321,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: stretch; /* For ensuring that items stretch to the container height */
   gap: 20px;
 }
 

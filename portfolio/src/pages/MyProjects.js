@@ -6,6 +6,7 @@ template,however I noticed it in the instructions and added date and name today(
 // For importing the necessary assets and components:
 import movieApp from '../assets/movie-app.png';
 import api from '../assets/api.png';
+import pythonGames from '../assets/pythonGames.png'
 import Card from '../components/Card';
 
 /* Card component, responsible for displaying project details such as:
@@ -19,13 +20,16 @@ const Projects = () => {
     return (
         <div className="my-projects">
             <h1>💻 My Projects</h1>
-            <div className="projects">
+            <div className="projects">   
+
                 <Card  
                     picture={movieApp} 
                     title={"Movie App"} 
                     description={"This is a front-end movie app where user can search a movie from an API."} 
                     url={"https://github.com/Kiana-ko/TMDB-Movie-Web-App/tree/main"}
-                />
+                />     
+
+
 
                  <Card  
                     picture={api} 
@@ -33,7 +37,17 @@ const Projects = () => {
                     description={"This is a back-end server that allows users to create, read, update, and delete articles."} 
                     url={"https://github.com/Kiana-ko/Article-Server-Assignment"}
                 />
-            </div>
+
+                
+                {/* Photo for my python games, i generated the picture myself using "Adobe Express": */}
+                <Card  
+                    picture={pythonGames}
+                    title={"Python Console Games"} 
+                    description={"A collection of two mini Python console games: Hangman and Word Sleuth console games."} 
+                    url={"https://github.com/Kiana-ko/Python_Game_Bytes"}
+                />
+                
+            </div> 
         </div>
     );
 };
